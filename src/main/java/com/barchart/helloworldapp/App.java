@@ -2,9 +2,11 @@ package com.barchart.helloworldapp;
 
 import java.util.Set;
 
+import com.barchart.util.guice.Component;
 import com.barchart.util.guice.GuiceApp;
 import com.google.inject.Inject;
 
+@Component("App")
 public class App implements GuiceApp {
 
 	@Inject
