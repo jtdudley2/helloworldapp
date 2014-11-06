@@ -55,7 +55,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.barchart.util.guice.GuiceMain</mainClass>
+									<mainClass>com.barchart.helloworldapp.App</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
